@@ -1,0 +1,19 @@
+.TH CSSOP 1 "13/10/2014" "version 0.1" "Commandes d'optimisation de règle CSS"
+.SH NAME
+cssopt \- output of an optimized CSS file.
+.SH SYNOPSIS
+.B cssopt
+.I [FILE]...[FILE]
+.SH DESCRIPTION
+.B cssopt
+ouputs the contents of a CSS file to the same file. Files have to input with the CSS format, else it will be noted on STDERR.
+The first file is the input file to optimize and the second one is the output file (optional). 
+
+The options are as follows :
+.IP "-ib, --input-binary"
+Input file will be opened in binary mode.
+.IP "-ob, --output-binary"
+Output file will be written in binary mode
+
+.B AUTHOR
+Written by Xavier Negre, Antoine Pauchet and Yoann Levrel
